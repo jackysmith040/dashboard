@@ -4,6 +4,7 @@ config = rx.Config(
     app_name="dashboard",
     backend_port=4000,
     frontend_port=3000,
+    api_url="http://localhost:4000",
     show_built_with_reflex=False,
     plugins=[
         rx.plugins.SitemapPlugin(),
